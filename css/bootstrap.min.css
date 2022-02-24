@@ -9,7 +9,7 @@
         height: 40rem;
         object-fit: cover;
         object-position: 40% 50%;
-        border: 5px solid #8d310a
+        border: 5px solid #DB4135;
     /* #FDD286;
     #F5A752;
     #FA7E64;
@@ -21,7 +21,7 @@
         height: 40rem;
         object-fit: cover;
         object-position: 60% 50%;
-        border: 5px solid #8d310a
+        border: 5px solid #8d310a;
     }
 
 .candidate-description{
