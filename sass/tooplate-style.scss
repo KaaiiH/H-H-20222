@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Barlow+Condensed:wght@200&family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
 
 // VARIABLES
 $font-base: 'Maven Pro', sans-serif;
@@ -562,6 +562,7 @@ b, strong {
 
 	.about-image {
 		margin-top: 4em;
+		border: 5px solid #8d310a;
 	}
 
 	.mobile-mt-2,
@@ -635,6 +636,7 @@ b, strong {
 
 	.about-text {
 		text-align: center;
+		display: flex;
 	}
 
 	.full-screen {
