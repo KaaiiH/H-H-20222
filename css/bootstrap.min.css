@@ -49,6 +49,12 @@
         text-align: center;
         margin-top: 5%;
     }
+    
+    .candidate-intro{
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: -5%;
+    }
 
     .H1{
         color: #F5A752;
