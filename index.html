@@ -14,16 +14,14 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-    <!-- MAIN STYLE -->
     <link rel="stylesheet" href="css/tooplate-style.css">
     
   </head>
   <body>
 
-    <!-- MENU -->
     <nav class="navbar navbar-expand-sm navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img  class='uil uil-user' src = "images/project/logo_main.png" height="100" width = "100"> </img></a>
+            <a class="navbar-brand" href="#welcome"><button class="tablinks" onclick="openCity(event,'Welcome')"><img  class='uil uil-user' src = "images/project/logo_main.png" height="100" width = "100"> </img></a></button>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -44,7 +42,7 @@
                         <a href="#team" class="nav-link"><button class="tablinks" onclick="openCity(event,'Team')">Our Team</a></button>
                     </li>
                     <li class="nav-item">
-                        <a href="#support" class="nav-link"><button class="tablinks" onclick="openCity(event,'Support')">Campus Support</a></button>
+                        <a href="#support" class="nav-link"><button class="tablinks" onclick="openCity(event,'Support')">Campus Support</span></a></button>
                     </li>
                 </ul>
 
@@ -58,6 +56,46 @@
             </div>
         </div>
     </nav>
+
+    <div id="Welcome" class="tabcontent">
+      <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="welcome">
+        <div class="container">
+
+          <div class="col-lg-5 col-md-12 col-12">
+            <div class="about-image">
+                <img src="images\project/togethermask.jpg" class="img-fluid2">
+            </div>
+        </div>
+
+          <div class="row">
+
+            
+              
+              <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                  <div class="about-text">
+                      <h1 class="animated animated-text">
+                          <span class="mr-2">Casey Harloe</span>
+                              <div class="animated-info">
+                                  <span class="animated-item">Scholar</span>
+                                  <span class="animated-item">Mentor</span>
+                                  <span class="animated-item">Leader</span>
+                              </div>
+                      </h1>
+
+                      <p class = "candidate-description"> My time as an undergraduate student at the University of Cincinnati has been monumental in exploring my identity, discovering the type of imprint I wanted to leave in certain spaces, and enjoying the experience as it unfolds before me. As our University continues to give the opportunity for students to make legacies and blaze the trail for future Bearcats, we have moved forward with an innovative lense and progressive mindset where the only way ahead is looking at what’s next.
+                      </p>
+                      
+                      <div class="custom-btn-group mt-4">
+                      </div>
+                  </div>
+              </div>
+
+  
+          </div>
+      </div>
+      </section>
+    </div>
+
 
     <div id="Meet" class="tabcontent">
     <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
@@ -452,7 +490,6 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/custom.js"></script>
-    <script src="js/tab.js"></script>
 
   </body>
 </html>

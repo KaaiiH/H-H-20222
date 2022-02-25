@@ -176,13 +176,14 @@ b, strong {
 }
 
 
-// MENU
+// Navbar
 .navbar {
 	position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 999999;
+	border-bottom: 5px solid #8d310a;
     will-change: transform;
     transition: transform 200ms linear;
 	&[class*="-unpinned"] {
@@ -251,60 +252,12 @@ b, strong {
 	}
 }
 
-.navbar-toggler {
-	border: 0;
-	padding: 0;
-	width: 32px;
-	height: 32px;
-	line-height: 32px;
-	outline: none;
-	cursor: pointer;
-	margin-right: 10px;
-	&:focus {
-		outline: none;
-	}
-	&[aria-expanded="true"] {
-		.navbar-toggler-icon {
-			&:first-child {
-				transform: rotate(45deg);
-				top: 6px;
-			}
-			&:nth-child(2) {
-				display: none;
-			}
-			&:last-child {
-				transform: rotate(-45deg);
-				bottom: 1px;
-			}
-		}
-	}
-	.navbar-toggler-icon {
-		background: $h1-font-color;
-		display: block;
-		width: 100%;
-		height: 2px;
-		margin: 5px 0;
-		@include transition-effect;
-		position: relative;
-	}
-}
-
-
-// COPYRIGHT TEXT
 .copyright-text {
 	font-size: 16px;
 	font-weight: $font-weight-normal;
 	display: block;
 }
 
-
-// COLOR MODE
-.color-mode {
-	font-weight: $font-weight-bold;
-	cursor: pointer;
-}
-
-// TIMELINE
 .timeline-wrapper {
 	position: relative;
 	padding-bottom: 10px;
@@ -501,9 +454,6 @@ b, strong {
 		padding-bottom: 4rem;
 	}
 
-	.color-mode {
-		display: none;
-	}
 
 	.about-image {
 		margin-top: 4em;
