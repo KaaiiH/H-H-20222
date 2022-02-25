@@ -43,6 +43,10 @@ body {
 .platform {
   text-align: left;
 }
+/* 
+.tablinks{
+  visibility: hidden;
+} */
 
 .tabcontent {
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
@@ -401,53 +405,6 @@ b, strong {
   cursor: pointer;
 }
 
-.color-mode-icon {
-  position: relative;
-  right: 6px;
-}
-.color-mode-icon:after {
-  font-family: 'unicons';
-  content: '\ea9f';
-  font-size: 30px;
-  font-weight: 300;
-  font-style: normal;
-}
-.color-mode-icon.active:after {
-  font-family: 'unicons';
-  content: '\eb65';
-  font-size: 30px;
-  color: #ffffff;
-}
-
-.dark-mode {
-  background: #0c0c0d;
-}
-.dark-mode .navbar-light .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.8);
-}
-.dark-mode .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffc200;
-}
-.dark-mode .navbar[class*="headroom--not-top"] {
-  background: #0c0c0d;
-  border-bottom: 1px solid #1f1f1f;
-}
-.dark-mode .small-text {
-  background: #0d0c15;
-  color: #ffffff;
-}
-.dark-mode .feature-card .uil,
-.dark-mode .navbar-light .navbar-brand,
-.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
-.dark-mode .color-mode {
-  color: #ffffff;
-}
-.dark-mode .owl-carousel .owl-nav button.owl-next,
-.dark-mode .owl-carousel .owl-nav button.owl-prev,
-.dark-mode .owl-carousel button.owl-dot {
-  color: #ffffff;
-}
-
 .timeline-wrapper {
   position: relative;
   padding: 22px 0;
@@ -604,10 +561,6 @@ b, strong {
 @media (max-width: 991px) {
   .full-screen {
     padding-bottom: 4rem;
-  }
-
-  .color-mode {
-    display: none;
   }
 
   .about-image {

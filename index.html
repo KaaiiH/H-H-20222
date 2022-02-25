@@ -7,7 +7,7 @@
     <meta name="author" content="">
 
     <title>Raphael and Casey 2022</title>
-    <link rel="icon" type="image/x-icon" href="/images/project/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/images/project/favicon.ico"/>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/unicons.css">
@@ -35,27 +35,23 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a href="#about" class="nav-link"><span data-hover="Meet Raphael + Casey"><button class="tablinks" onclick="openCity(event,'London')">Meet Raphael + Casey</span></a></button>
+                        <a href="#about" class="nav-link"><span data-hover="Meet Raphael + Casey"><button class="tablinks" onclick="openCity(event,'Meet')">Meet Raphael + Casey</span></a></button>
                     </li>
                     <li class="nav-item">
-                        <a href="#project" class="nav-link"><span data-hover="Platform"><button class="tablinks" onclick="openCity(event,'London')">Platform</span></a></button>
+                        <a href="#platform" class="nav-link"><span data-hover="Platform"><button class="tablinks" onclick="openCity(event,'Platform')">Platform</span></a></button>
                     </li>
                     <li class="nav-item">
-                        <a href="#resume" class="nav-link"><span data-hover="Our Team"><button class="tablinks" onclick="openCity(event,'London')">Our Team</span></a></button>
+                        <a href="#team" class="nav-link"><span data-hover="Our Team"><button class="tablinks" onclick="openCity(event,'Team')">Our Team</span></a></button>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link"><span data-hover="Campus Support"><button class="tablinks" onclick="openCity(event,'London')">Campus Support</span></a></button>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link"><span data-hover="Go Vote"><button class="tablinks" onclick="openCity(event,'London')">Go Vote</span></a></button>
+                        <a href="#support" class="nav-link"><span data-hover="Campus Support"><button class="tablinks" onclick="openCity(event,'Support')">Campus Support</span></a></button>
                     </li>
                 </ul>
 
                 <ul class="navbar-nav ml-lg-auto">
                     <div class="ml-lg-4">
                       <div class="color-mode d-lg-flex justify-content-center align-items-center">
-                        <i class="color-mode-icon"></i>
-                        Color mode
+                        Go Vote!
                       </div>
                     </div>
                 </ul>
@@ -63,7 +59,7 @@
         </div>
     </nav>
 
-    <!-- ABOUT -->
+    <div id="Meet" class="tabcontent">
     <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
         <div class="container">
             <div class="row">
@@ -144,9 +140,10 @@
             </div>
         </div>
     </section>
+  </div>
 
-    <!-- PROJECTS -->
-    <section class="project py-5" id="project">
+  <div id="Platform" class="tabcontent">
+    <section class="project py-5" id="platform">
         <div class="container">
                 
                 <div class="row">
@@ -344,11 +341,11 @@
                 </div>
         </div>
     </section>
+  </div>
 
 
-
-    <!-- FEATURES -->
-    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+  <div id="Support" class="tabcontent">
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="team">
         <div class="container">
             <div class="row">
 
@@ -394,9 +391,10 @@
             </div>
         </div>
     </section>
+  </div>
 
-    <!-- CONTACT -->
-    <section class="contact py-5" id="contact">
+  <div id="Team" class="tabcontent">
+    <section class="contact py-5" id="support">
       <div class="container">
         <div class="row">
           
@@ -416,8 +414,9 @@
         </div>
       </div>
     </section>
+  </div>
 
-    <!-- FOOTER -->
+    <!-- Footer -->
     <footer _ngcontent-efg-c109="">
       <div _ngcontent-efg-c109="" class="container">
         <div _ngcontent-efg-c109="" class="row justify-content-md-center">
