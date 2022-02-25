@@ -44,6 +44,13 @@ body {
   text-align: left;
 }
 
+.tablinks{
+  color: transparent; 
+  background-color: transparent; 
+  border-color: transparent; 
+  cursor: default;
+}
+
 .tabcontent {
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
@@ -114,6 +121,7 @@ body {
 /* Some left and right padding inside the container */
 .container {
   padding: 0 16px;
+  outline: #000;
 }
 
 /* Clear floats */
@@ -303,7 +311,9 @@ b, strong {
   z-index: 999999;
   will-change: transform;
   transition: transform 200ms linear;
+  border-bottom: 5px solid #8d310a;
 }
+
 .navbar[class*="-unpinned"] {
   transform: translate(0, -150%);
 }
@@ -312,7 +322,7 @@ b, strong {
 }
 .navbar[class*="headroom--not-top"] {
   background: #ffffff;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 10px solid #f0f0f0;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -356,40 +366,6 @@ b, strong {
   background: none;
 }
 
-.navbar-toggler {
-  border: 0;
-  padding: 0;
-  width: 32px;
-  height: 32px;
-  line-height: 32px;
-  outline: none;
-  cursor: pointer;
-  margin-right: 10px;
-}
-.navbar-toggler:focus {
-  outline: none;
-}
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:first-child {
-  transform: rotate(45deg);
-  top: 6px;
-}
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:nth-child(2) {
-  display: none;
-}
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:last-child {
-  transform: rotate(-45deg);
-  bottom: 1px;
-}
-.navbar-toggler .navbar-toggler-icon {
-  background: #212121;
-  display: block;
-  width: 100%;
-  height: 2px;
-  margin: 5px 0;
-  transition: all 0.4s ease;
-  position: relative;
-}
-
 .copyright-text {
   font-size: 16px;
   font-weight: normal;
@@ -399,53 +375,6 @@ b, strong {
 .color-mode {
   font-weight: bold;
   cursor: pointer;
-}
-
-.color-mode-icon {
-  position: relative;
-  right: 6px;
-}
-.color-mode-icon:after {
-  font-family: 'unicons';
-  content: '\ea9f';
-  font-size: 30px;
-  font-weight: 300;
-  font-style: normal;
-}
-.color-mode-icon.active:after {
-  font-family: 'unicons';
-  content: '\eb65';
-  font-size: 30px;
-  color: #ffffff;
-}
-
-.dark-mode {
-  background: #0c0c0d;
-}
-.dark-mode .navbar-light .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.8);
-}
-.dark-mode .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffc200;
-}
-.dark-mode .navbar[class*="headroom--not-top"] {
-  background: #0c0c0d;
-  border-bottom: 1px solid #1f1f1f;
-}
-.dark-mode .small-text {
-  background: #0d0c15;
-  color: #ffffff;
-}
-.dark-mode .feature-card .uil,
-.dark-mode .navbar-light .navbar-brand,
-.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
-.dark-mode .color-mode {
-  color: #ffffff;
-}
-.dark-mode .owl-carousel .owl-nav button.owl-next,
-.dark-mode .owl-carousel .owl-nav button.owl-prev,
-.dark-mode .owl-carousel button.owl-dot {
-  color: #ffffff;
 }
 
 .timeline-wrapper {
@@ -604,10 +533,6 @@ b, strong {
 @media (max-width: 991px) {
   .full-screen {
     padding-bottom: 4rem;
-  }
-
-  .color-mode {
-    display: none;
   }
 
   .about-image {

@@ -7,23 +7,21 @@
     <meta name="author" content="">
 
     <title>Raphael and Casey 2022</title>
-    <link rel="icon" type="image/x-icon" href="/images/project/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/images/project/favicon.ico"/>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/unicons.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-    <!-- MAIN STYLE -->
     <link rel="stylesheet" href="css/tooplate-style.css">
     
   </head>
   <body>
 
-    <!-- MENU -->
     <nav class="navbar navbar-expand-sm navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img  class='uil uil-user' src = "images/project/logo_main.png" height="100" width = "100"> </img></a>
+            <a class="navbar-brand" href="#welcome"><button class="tablinks" onclick="openCity(event,'Welcome')"><img  class='uil uil-user' src = "images/project/logo_main.png" height="100" width = "100"> </img></a></button>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -35,27 +33,23 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a href="#about" class="nav-link"><span data-hover="Meet Raphael + Casey"><button class="tablinks" onclick="openCity(event,'London')">Meet Raphael + Casey</span></a></button>
+                        <a href="#about" class="nav-link"><button class="tablinks" onclick="openCity(event,'Meet')">Meet Raphael + Casey</a></button>
                     </li>
                     <li class="nav-item">
-                        <a href="#project" class="nav-link"><span data-hover="Platform"><button class="tablinks" onclick="openCity(event,'London')">Platform</span></a></button>
+                        <a href="#platform" class="nav-link"><button class="tablinks" onclick="openCity(event,'Platform')">Platform</a></button>
                     </li>
                     <li class="nav-item">
-                        <a href="#resume" class="nav-link"><span data-hover="Our Team"><button class="tablinks" onclick="openCity(event,'London')">Our Team</span></a></button>
+                        <a href="#team" class="nav-link"><button class="tablinks" onclick="openCity(event,'Team')">Our Team</a></button>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link"><span data-hover="Campus Support"><button class="tablinks" onclick="openCity(event,'London')">Campus Support</span></a></button>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link"><span data-hover="Go Vote"><button class="tablinks" onclick="openCity(event,'London')">Go Vote</span></a></button>
+                        <a href="#support" class="nav-link"><button class="tablinks" onclick="openCity(event,'Support')">Campus Support</span></a></button>
                     </li>
                 </ul>
 
                 <ul class="navbar-nav ml-lg-auto">
                     <div class="ml-lg-4">
                       <div class="color-mode d-lg-flex justify-content-center align-items-center">
-                        <i class="color-mode-icon"></i>
-                        Color mode
+                        Go Vote!
                       </div>
                     </div>
                 </ul>
@@ -63,7 +57,47 @@
         </div>
     </nav>
 
-    <!-- ABOUT -->
+    <div id="Welcome" class="tabcontent">
+      <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="welcome">
+        <div class="container">
+
+          <div class="col-lg-5 col-md-12 col-12">
+            <div class="about-image">
+                <img src="images\project/togethermask.jpg" class="img-fluid2">
+            </div>
+        </div>
+
+          <div class="row">
+
+            
+              
+              <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                  <div class="about-text">
+                      <h1 class="animated animated-text">
+                          <span class="mr-2">Casey Harloe</span>
+                              <div class="animated-info">
+                                  <span class="animated-item">Scholar</span>
+                                  <span class="animated-item">Mentor</span>
+                                  <span class="animated-item">Leader</span>
+                              </div>
+                      </h1>
+
+                      <p class = "candidate-description"> My time as an undergraduate student at the University of Cincinnati has been monumental in exploring my identity, discovering the type of imprint I wanted to leave in certain spaces, and enjoying the experience as it unfolds before me. As our University continues to give the opportunity for students to make legacies and blaze the trail for future Bearcats, we have moved forward with an innovative lense and progressive mindset where the only way ahead is looking at what’s next.
+                      </p>
+                      
+                      <div class="custom-btn-group mt-4">
+                      </div>
+                  </div>
+              </div>
+
+  
+          </div>
+      </div>
+      </section>
+    </div>
+
+
+    <div id="Meet" class="tabcontent">
     <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
         <div class="container">
             <div class="row">
@@ -144,9 +178,10 @@
             </div>
         </div>
     </section>
+  </div>
 
-    <!-- PROJECTS -->
-    <section class="project py-5" id="project">
+  <div id="Platform" class="tabcontent">
+    <section class="project py-5" id="platform">
         <div class="container">
                 
                 <div class="row">
@@ -344,11 +379,11 @@
                 </div>
         </div>
     </section>
+  </div>
 
 
-
-    <!-- FEATURES -->
-    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+  <div id="Support" class="tabcontent">
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="team">
         <div class="container">
             <div class="row">
 
@@ -394,9 +429,10 @@
             </div>
         </div>
     </section>
+  </div>
 
-    <!-- CONTACT -->
-    <section class="contact py-5" id="contact">
+  <div id="Team" class="tabcontent">
+    <section class="contact py-5" id="support">
       <div class="container">
         <div class="row">
           
@@ -416,8 +452,9 @@
         </div>
       </div>
     </section>
+  </div>
 
-    <!-- FOOTER -->
+    <!-- Footer -->
     <footer _ngcontent-efg-c109="">
       <div _ngcontent-efg-c109="" class="container">
         <div _ngcontent-efg-c109="" class="row justify-content-md-center">
@@ -453,7 +490,6 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/custom.js"></script>
-    <script src="js/tab.js"></script>
 
   </body>
 </html>

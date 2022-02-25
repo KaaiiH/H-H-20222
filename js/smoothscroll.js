@@ -35,6 +35,10 @@ jQuery(function($){ $.localScroll({filter:'.smoothScroll'}); });
 function openCity(evt, cityName) {
     // Declare all variables
     var i, tabcontent, tablinks;
+
+    // if(document.getElementById(cityName).style.display = "block"){
+    //   document.getElementByClassName("first-tab").style.display = "block";
+    // }
   
     // Get all elements with class="tabcontent" and hide them
     tabcontent = document.getElementsByClassName("tabcontent");
