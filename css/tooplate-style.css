@@ -43,10 +43,13 @@ body {
 .platform {
   text-align: left;
 }
-/* 
+
 .tablinks{
-  visibility: hidden;
-} */
+  color: transparent; 
+  background-color: transparent; 
+  border-color: transparent; 
+  cursor: default;
+}
 
 .tabcontent {
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
