@@ -23,18 +23,66 @@
         object-position: 60% 50%;
         border: 5px solid #8d310a;
     }
-    
-    /* @media screen and (max-width : 920px){
+
+
+	.img-fluid3{
+		width: 100%;
+		height: 100%;
+        border: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+    /* @media (max-width : 920px){
         .img-fluid3{
-            width: 75%;
+            width: 50%;
+            height: 50%;
+            object-fit: cover;
+            object-position: 60% 50%;
+            border: 5px solid #8d310a;
             margin-left: auto;
             margin-right: auto;
         }
     } */
 
-.candidate-description{
-    font-size: small;
-}
+    .team-intro{
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .H1{
+        color: #F5A752;
+    }
+
+    .candidate-description{
+        font-size: small;
+    }
+
+    .main-cont{
+        max-width: 50%;
+        min-width: 300px;
+        box-shadow: 5px 5px 3px grey;
+    }
+
+    .team{
+        max-width: 50%;
+        min-width: 300px;
+        padding: 3rem;
+    }
+
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap:wrap;
+        /* flex-basis: 20%; */
+    }
+
+    .col-md-3{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    
 
 /* .welcome-image{
     text-align: justify;
