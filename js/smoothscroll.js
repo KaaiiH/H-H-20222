@@ -1,4 +1,3 @@
-const { ok } = require("assert");
 
 /**
  * SmoothScroll

@@ -19,9 +19,10 @@ https://www.tooplate.com/view/2115-marvel
 
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@700&family=Inter&display=swap');
 body {
-  font-family: "Maven Pro", sans-serif;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-family: 'Inter', sans-serif;
   padding-top: 70px;
 }
 

@@ -82,6 +82,8 @@
 
     .candidate-description{
         font-size: small;
+        font-family: 'Inter', sans-serif;
+        font-weight: 100;
     }
 
     .main-cont{
@@ -258,7 +260,7 @@
  .mr-2,
  .mx-2{margin-right:
     .5rem!important;
-    font-family: 'Aktiv Grotesk', Regular, sans-serif;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
     font-weight:normal;
     font-style:normal;}
 
