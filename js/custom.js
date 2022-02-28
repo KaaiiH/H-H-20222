@@ -2,8 +2,8 @@
 
   "use strict";
 
-    // HEADER
-    $(".navbar").headroom();
+    // NAVBAR TOGGLE
+    // $(".navbar").headroom();
 
     // PROJECT CAROUSEL
     $('.owl-carousel').owlCarousel({
