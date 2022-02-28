@@ -7,7 +7,7 @@ https://www.tooplate.com/view/2115-marvel
 */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Yanone+Kaffeesatz&display=swap');
 body {
   font-family: "Maven Pro", sans-serif;
   padding-top: 70px;
@@ -15,8 +15,44 @@ body {
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: #F5A752;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.accordion1 {
+  background-color: #FA7E64;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.accordion2 {
+  background-color: #DB4135;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.accordion3 {
+  background-color: #8d310a;
+  color: #ffffff;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -28,7 +64,16 @@ body {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
-  background-color: #ccc;
+  background-color: #FDD286;
+}
+.active, .accordion1:hover {
+  background-color: #F5A752;
+}
+.active, .accordion2:hover {
+  background-color: #FA7E64;
+}
+.active, .accordion3:hover {
+  background-color: #DB4135;
 }
 
 /* Style the accordion panel. Note: hidden by default */
