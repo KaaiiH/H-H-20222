@@ -350,10 +350,11 @@ b, strong {
 }
 .navbar {
   position: fixed;
+  background-color: white;
   top: 0;
   right: 0;
   left: 0;
-  z-index: 999999;
+  z-index: 1080;
   will-change: transform;
   transition: transform 200ms linear;
   border-bottom: 5px solid #8d310a;
