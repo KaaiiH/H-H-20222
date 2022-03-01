@@ -596,7 +596,7 @@ b, strong {
 
   .about-image {
     margin-top: 4em;
-    border: 5px solid #8d310a;
+    /* border: 5px solid #8d310a; */
   }
 
   .mobile-mt-2,
